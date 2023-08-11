@@ -69,7 +69,7 @@ public class AgregarPalabras extends javax.swing.JFrame {
     private void aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aceptarActionPerformed
         String  palabra=palabraField.getText();
          AdminPalabrasSecretas adminPalabrasSecretas = new AdminPalabrasSecretas();
-         adminPalabrasSecretas.agregarPalabra(palabra);
+         adminPalabrasSecretas.agregarPalabra(palabra.toUpperCase());
         JOptionPane.showMessageDialog(null, "La palabra se ha establecido correctamente.  ");
         Menu menu = new Menu();
         menu.setVisible(true);

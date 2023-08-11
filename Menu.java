@@ -9,7 +9,6 @@ package labherencia;
  * @author dell
  */
 public class Menu extends javax.swing.JFrame {
-         AdminPalabrasSecretas adminPalabrasSecretas = new AdminPalabrasSecretas();
     /**
      * Creates new form Menu
      */
@@ -96,9 +95,9 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_InicializarPalabrasActionPerformed
 
     private void JugarAhorcadoAlAzarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JugarAhorcadoAlAzarActionPerformed
-        JuegoAhorcadoAzar juegoAhorcadoAzar = new JuegoAhorcadoAzar(adminPalabrasSecretas.getpalabrasSecretas());
+        JuegoAhorcadoAzar juegoAhorcadoAzar = new JuegoAhorcadoAzar(AdminPalabrasSecretas.getpalabrasSecretas());
         juegoAhorcadoAzar.jugar();
-        System.out.println(adminPalabrasSecretas.getpalabrasSecretas());
+        System.out.println(AdminPalabrasSecretas.getpalabrasSecretas());
     }//GEN-LAST:event_JugarAhorcadoAlAzarActionPerformed
 
     private void salirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salirActionPerformed

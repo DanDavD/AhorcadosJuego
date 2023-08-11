@@ -27,7 +27,7 @@ public class AdminPalabrasSecretas {
         palabrasSecretas.add(palabraSecreta);
     }
     
-    public ArrayList getpalabrasSecretas(){
+    public static ArrayList getpalabrasSecretas(){
         return palabrasSecretas;
     }
 }
